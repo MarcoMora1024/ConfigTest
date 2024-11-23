@@ -6,7 +6,7 @@ spring:
       import-check:
         enabled: false
   datasource:
-    url: jdbc:mysql://localhost:3306/servicem
+    url: ${DATA_BASE_URL}
     username: ${DATA_BASE_USR}
     password: ${DATA_BASE_PASSWORD}
   jpa:
